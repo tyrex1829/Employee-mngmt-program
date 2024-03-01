@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Employee Management Program</title>
+        <link rel="stylesheet" href="./style.css">
+    </head>
+    <body>
+        <div class="container">
+            <h2>Employee Management Program</h2>
+            
+            <label for="name">Name:</label>
+            <input type="text" id="name">
+            
+            <label for="id">ID:</label>
+            <input type="text" id="id">
+            
+            <label for="dob">Date of Birth:</label>
+            <input type="text" id="dob">
+            
+            <label for="salary">Salary:</label>
+            <input type="text" id="salary">
+            
+            <button onclick="addEmployee()">Add Employee</button>
+            
+            <ul id="employeeList">
+            <!-- Employee list will be displayed here -->
+            </ul>
+        </div>
+
+        <script src="./app.js"></script>
+    </body>
+</html>
